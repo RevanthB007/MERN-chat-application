@@ -1,0 +1,26 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "camelcase-css": "^2.0.1",
+    "css-selector-tokenizer": "^0.8.0",
+    "cssesc": "^3.0.0",
+    "culori": "^3.3.0",
+    "fastparse": "^1.1.2",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.5.4",
+    "postcss-js": "^4.0.1",
+    "source-map-js": "^1.2.1"
+  },
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
